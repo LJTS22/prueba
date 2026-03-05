@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenidos</title>
+</head>
+<body>
+    <h1>Hola jhon care gey</h1>
+    <form action="/probar-conexion" method="get">
+        <button type="submit"> Probar Conexion BD</button>
+    </form>
+    <p th:text="${mensaje}"></p>
+</body>
+</html>
